@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.slider {
+    display: block;
+    height: 250px;
+    width: 800px;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+}
+
+.slider li {
+    list-style: none;
+    position: absolute;
+}
+
+.slider img {
+    opacity: 0;
+    visibility: hidden;
+    margin: auto;
+    width: 800px;
+    vertical-align: top;
+}
+
+.slider input {
+    display: none;
+}
+
+.slider label {
+    background-color: white;
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: relative;
+    width: 10px;
+    z-index: 10;
+    border: 3px solid black;
+    
+}
+
+.slider input[type="radio"]:checked+label {
+    background-color: rgb(63, 63, 255);
+  }
+
+.slider li:nth-child(1) label{
+    left: 0px;
+}
+
+.slider li:nth-child(2) label{
+    left: 50px;
+}
+
+.slider li:nth-child(3) label{
+    left: 100px;
+}
+
+.slider li:nth-child(4) label{
+    left: 150px;
+}
+
+.slider li:nth-child(5) label{
+    left: 200px;
+}
+
+.slider li:nth-child(6) label{
+    left: 250px;
+}
+
+.slider li input:checked ~img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
