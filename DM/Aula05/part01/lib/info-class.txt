@@ -1,4 +1,0 @@
-## Criação de navegação
-
-navigator.push => avança para uma página;
-navigator.pop => volta a página;
