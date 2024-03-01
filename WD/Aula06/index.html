@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+
+    <style>
+        
+        body {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-color: #fafafa;
+        }
+
+        .row {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .card{
+            border-radius: 10px;
+            box-shadow: 7px 7px 13px 0px rgb(50, 50, 50);
+            padding: 30px;
+            margin: 20px;
+            width: 400px;
+            height: 300px;
+            transition: all 0.3s ease-out;
+        }
+
+        .card:hover {
+            transform: translate(-5px, 5px);
+            cursor: pointer;
+        }
+
+        .image {
+            float: left;
+            max-width: 300px;
+            max-height: 250px;
+        }
+
+        .card p {
+            color: #a3a5aa;
+            font-size: 16px;
+        }
+
+        #card-blue {
+            border-left: 3px solid #4895ff;
+        }
+
+        #card-green {
+            border-left: 3px solid #3bb54a;
+        }
+        
+        #card-red {
+            border-left: 3px solid #b3404a;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        h2 {
+            color: black;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="row">
+        <a href="https://www.youtube.com/watch?v=MGiqC9At4EM">
+            <div class="card" id="card-green">
+                <h2>Capitalização</h2>
+                <p>Entre para este negócio rentável!</p>
+                <img src="./img/dinheiro.jpg" alt="Imagem de dinheiro" class="image">
+            </div>
+        </a>
+        
+        <a href="https://www.youtube.com/watch?v=pTJDw66pm5U">
+            <div class="card" id="card-blue">
+                <h2>Configurações</h2>
+                <p>Configure seu sistema</p>
+                <img src="./img/config.jpg" alt="Configurações" class="image">
+            </div>
+        </a>
+        
+        <a href="https://www.youtube.com/watch?v=Fs9JB8IZc74">
+            <div class="card" id="card-red">
+                <h2>Artigos</h2>
+                <p>Fique por dentro da nossa plataforma</p>
+                <img src="./img/artigo.png" alt="Artigo" class="image">
+            </div>
+        </a>
+        
+    </div>
+</body>
+</html>
