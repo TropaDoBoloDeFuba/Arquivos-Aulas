@@ -8,3 +8,16 @@
     - cidade.
     A classe deve possuir métodos GET para buscar e método SET para entrar com os dados;
 
+## Definições 
+
+- Public: Quando definimos uma classe ou variável como public, esta pode ser acessada em qualquer parte do sistema.
+- Private: Quando definimos ma classe ou variável como private, ela só pode ser usada dentro da própria classe.
+- Protected: Quando definimos uma classe ou variável como protected, ela só pode ser usada dentro do próprio programa.
+ _______________
+|    Public     |
+|---------------|
+|    Sistema    |
+|nome           |
+|endereco       |   
+|cidade         |
++---------------+

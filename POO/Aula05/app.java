@@ -61,4 +61,19 @@ class Main{
         System.out.println("Salário: " + cadastroFuncionario01.getSalario());
         System.out.println("Cidade: " + cadastroFuncionario01.getCidade());
     }
+
+    //
+    public class matriz {
+        protected String senha;
+
+        public matriz() {
+            this.senha = "1234";
+        }
+    }
+
+    public class filial extends matriz {
+        public filial() {
+            System.out.println(senha);
+        }
+    }
 }
