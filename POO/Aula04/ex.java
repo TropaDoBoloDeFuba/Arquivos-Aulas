@@ -36,8 +36,6 @@ class Main {
             public void setAno(Integer ano) {
                 this.ano = ano;
             }
-
-            
         }
 
         Carro cadastroDeCarro01 = new Carro(

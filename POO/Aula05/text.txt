@@ -1,0 +1,10 @@
+## Exercícios
+
+1- Criar uma classe com o nome Funcionários, que tenha os seguintes atributos: 
+    - nome;
+    - idade;
+    - cargo;
+    - salario;
+    - cidade.
+    A classe deve possuir métodos GET para buscar e método SET para entrar com os dados;
+
