@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>$ Nano-Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>----- $ Nano-Converter $ -----</h1>
+    </header>
+
+    <main>
+        <h2>Sistema de conversão de moedas</h2>
+
+        <form id="form">
+            <section id="coverter">
+                <div>
+                    <label>Valor a ser convertido: </label>
+                    <input type="number" placeholder="R$ 100.00" id="valor-real" name="valor-real" max="100000000">    
+                </div>
+
+                <div>
+                    <label>Escolha uma moeda: </label>
+                    <select name="select-converter" id="select-converter">
+                        <option value="selecao-moeda">Selecione a moeda: </option>
+                        <option value="dolar">Dólar</option>
+                        <option value="euro">Euro</option>
+                    </select>
+                </div>
+
+                <div class="div-button"><button type="submit" >Converter</button></div>
+                
+            </section>
+            
+        </form>
+    </main>
+
+    <footer>
+        <span>&copy; Nano-Converter, todos os direitos reservados</span>
+    </footer>
+</body>
+
+</html>
