@@ -1,4 +1,6 @@
-public class Arrays {
+import java.util.*;
+
+public class arrayStudy {
     public static void main(String[] args) {
         System.out.println("<---- Estudo sobre Arrays ---->");
         // Integer array
@@ -32,6 +34,19 @@ public class Arrays {
         }
         System.out.println(" ");
 
+        // Input
+        Scanner leitor = new Scanner(System.in);
+        System.out.println("Enter username: ");
+        String userName = leitor.nextLine();
+        System.out.println("Olá " + userName);
+
+        // Array multidimensional
+        int[][] notasBimestre = {{2, 3}, {4, 6}, {8, 9}, {7, 2}};
+        System.out.println(Arrays.deepToString(notasBimestre));
+
+        // Listagem rápida do array
+        Integer[] newNotas = {2,6,8,3,9,0,2,5,6,2,3};
+        Arrays.stream(newNotas).forEach(System.out::print);
 
     }
 }
