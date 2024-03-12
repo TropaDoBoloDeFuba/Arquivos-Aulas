@@ -47,6 +47,5 @@ public class arrayStudy {
         // Listagem rápida do array
         Integer[] newNotas = {2,6,8,3,9,0,2,5,6,2,3};
         Arrays.stream(newNotas).forEach(System.out::print);
-
     }
 }
