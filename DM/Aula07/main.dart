@@ -43,4 +43,37 @@ void main(List<String> args) {
     print("Status do aluno: " + status.toString());
     print("Aluno reprovado!");
   }
+
+  print("");
+
+  double preco = 100000;
+  double parcela = 12;
+  double juros = 0.04;
+  double valorTotal = 0;
+
+  // Loops
+  for (int i = 1; i <= parcela; i++) {
+    double valorParcela = preco / i;
+    double valorComJuros = (valorParcela * juros) + valorParcela;
+    print("O valor da " +
+        i.toString() +
+        "ª parcela é: " +
+        valorComJuros.toStringAsFixed(2));
+    valorTotal += valorComJuros;
+  }
+
+  print("Valor total sem juros: " + preco.toString());
+  print("Valor total com juros: " + (valorTotal).toStringAsFixed(2));
+
+  print(" ");
+  // Array
+  List<int> lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
+
+  // Saída do array
+  lista.forEach((numeros) => print(numeros));
+
+  print(" ");
+  // Adicionar no array
+  lista.add(200);
+  lista.forEach((numeros) => print(numeros));
 }
