@@ -15,4 +15,7 @@ SELECT PeNro, COUNT(*) FROM fornece_para GROUP BY PeNro ORDER BY 2 ASC, PeNro DE
 
 SELECT PeNro, SUM(Quant) FROM fornece_para GROUP BY PeNro HAVING SUM(Quant) < 5;
     -- HAVING = Tendo.
+
+SELECT PeNome FROM Peca INNER JOIN fornece_para ON Peca.PeNro = fornece_para.PeNro;
+    -- INNER JOIN = Seleciona registros que possuem valores correspondentes em ambas as tabelas.
     
