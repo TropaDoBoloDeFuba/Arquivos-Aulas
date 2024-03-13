@@ -3,4 +3,5 @@
 ### Matérias:
 - POO: Programação Orientada a Objetos;
 - WD: Web Design;
-- DM: Desenvolvimento Mobile.
+- DM: Desenvolvimento Mobile;
+- IRC: Introdução a redes de computadores.
