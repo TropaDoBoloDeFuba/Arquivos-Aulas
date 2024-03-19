@@ -4,4 +4,5 @@
 - POO: Programação Orientada a Objetos;
 - WD: Web Design;
 - DM: Desenvolvimento Mobile;
-- IRC: Introdução a redes de computadores.
+- IRC: Introdução a redes de computadores;
+- BD: Banco de Dados.
