@@ -21,7 +21,6 @@ public class livro {
     }
 
     // Método de saída de itens
-
     public int saidaEstoque(int quantidade) {
         int saida = this.quantidade - quantidade;
         return saida;
