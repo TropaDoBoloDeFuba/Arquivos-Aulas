@@ -1,0 +1,30 @@
+[
+    {
+        "nome": "Rodolfo Figueiredo Gama",
+        "genero": "Masculino",
+        "cidade": "Jacareí",
+        "idade": 17,
+        "filmes": ["Ficção Científica", "Animes"]
+    },
+    {
+        "nome": "Luiz Octávio Almeida Miranda",
+        "genero": "Masculino",
+        "cidade": "São José dos Campos",
+        "idade": 7,
+        "filmes": ["Terror", "Ação", "Comédia"]
+    },
+    {
+        "nome": "Nicolas Rafael Nemeu do Vasco",
+        "genero": "Masculino",
+        "cidade": "Pindamonhangaba",
+        "idade": 26,
+        "filmes": ["Ficção Científica", "Documentário", "Aventura"]
+    },
+    {
+        "nome": "Lívia Maria da Silva",
+        "genero": "Feminino",
+        "cidade": "Floripa",
+        "idade": 16, 
+        "filmes": ["Ação", "Comédia", "Aventura"]
+    }
+]
