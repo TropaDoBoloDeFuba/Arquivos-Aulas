@@ -44,12 +44,12 @@ public class Main {
 
         // Funcionário 04
         funcionario funcionario04 = new funcionario(
-            ""
+            "Lívia Maria", "576.899.378-57", "89.598.233-5", 17, 1.69, "Médica Especialista em Java", 12677.90, "NanoTech's Corp"
         );
 
         // Imprimindo
         funcionario01.imprimirDados();
         funcionario02.imprimirDados();
-        funcionario03.imprimirDadosSeguranca();
+        funcionario04.imprimirDados();
     }
 }

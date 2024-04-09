@@ -4,7 +4,22 @@ public class Funcionario extends Pessoa {
     double salario;
 
     // Construtor de Funcionario
-    public funcionario(String cargo, String empresa, double salario) {
+    public funcionario(
+        String nome,
+        String CPF,
+        String RG,
+        int idade,
+        double altura,
+        String cargo, 
+        String empresa, 
+        double salario
+        ) {
+        this.nome = nome;
+        this.CPF = CPF;
+        this.salario = salario;
+        this.RG = RG;
+        this.idade = idade;
+        this.altura = altura;
         this.cargo = cargo;
         this.empresa = empresa;
         this.salario = salario;
