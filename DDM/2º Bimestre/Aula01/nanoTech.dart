@@ -1,3 +1,4 @@
+import 'dart:ffi';
 import 'dart:math';
 
 void main(List<String> args) {
@@ -96,4 +97,17 @@ void main(List<String> args) {
   print("<-- If reduzido -->");
   int num = 43;
   print(num % 2 == 0 ? 'Par' : "Ímpar");
+  print(" ");
+
+  // Conversão de Dados
+  print("<-- Conversão de Dados -->");
+  int num2 = 90;
+  print("O valor do número é: " + num2.toString());
+
+  int continentes = 4000;
+  print(continentes.runtimeType); // O runtimeType só armazena o tamanho em
+  // bytes de uma variável quando ela é chamada
+
+  String pedro = "Pedro";
+  print(pedro);
 }
