@@ -5,4 +5,5 @@
 - WD: Web Design;
 - DM: Desenvolvimento Mobile;
 - IRC: Introdução a redes de computadores;
-- BD: Banco de Dados.
+- BD: Banco de Dados;
+- LI: Linguagem de programação.
