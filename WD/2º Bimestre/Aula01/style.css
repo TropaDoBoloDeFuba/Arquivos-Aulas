@@ -1,0 +1,105 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #909090;
+}
+
+#menu {
+    display: flex;
+    justify-content: end;
+}
+
+#menu ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#menu ul li {
+    display: inline;
+}
+
+#menu ul li a {
+    padding: 4px 20px;
+    display: inline-block;
+    background-color: #404040;
+    color: white;
+    text-decoration: none;
+    border-bottom: 3px solid #101010;
+    border-radius: 7px;
+    margin: 3px;
+}
+
+#menu ul li a:hover {
+    background-color: #101010;
+    color: blue;
+    transform: translateY(-4px);
+}
+
+p {
+    animation-name: slide_input;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes slide_input {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    } 
+
+    75% {
+        font-size: 200%;
+        margin-left: 25%;
+        width: 150%;
+    }
+
+    to {
+        margin: 0%;
+        width: 100%;
+    }
+} 
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    -webkit-animation: squareToCicle 0.01s 1s infinite alternate;
+}
+
+@-webkit-keyframes squareToCicle {
+    0% {
+        border-radius: 0 0 0 0;
+        background-color: black;
+        transform: rotate(0deg);
+    }
+
+    25% {
+        border-radius: 50% 0 0 0;
+        background-color: red;
+        transform: rotate(45deg);
+    }
+
+    50% {
+        border-radius: 50% 50% 0 0;
+        background-color: blue;
+        transform: rotate(90deg);
+    }
+
+    75% {
+        border-radius: 50% 50% 50% 0;
+        background-color: green;
+        transform: rotate(135deg);
+    }
+
+    100% {
+        border-radius: 50% 50% 50% 50%;
+        background-color: white;
+        transform: rotate(180deg);
+    }
+
+
+}
