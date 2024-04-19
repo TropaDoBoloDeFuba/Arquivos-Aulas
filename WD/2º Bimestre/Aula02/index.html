@@ -7,6 +7,12 @@
         <title>Animações com CSS</title>
     </head>
     <body>
-        <button type="button" class="nuvem">ACESSO!</button>
+        <button type="button" class="nuvem" onclick="mensagem()">Não aperte o botão</button>
+
+        <script>
+            function mensagem() {
+                window.alert("Obrigado por apertar o botão!");
+            }
+        </script>
     </body>
 </html>
