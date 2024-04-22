@@ -1,0 +1,10 @@
+<-- Linguagem Dart -->
+
+Hoje vamos aprender sobre:
+- Variáveis;
+- Arrays;
+- Tipo de Dados;
+- Operadores Aritimédicos;
+- Operadores Lógicos;
+- Controle de fluxo;
+- Loop.
