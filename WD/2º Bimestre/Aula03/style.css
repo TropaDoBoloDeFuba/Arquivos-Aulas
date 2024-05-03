@@ -25,3 +25,7 @@
     border-radius: 15%;
     transform: rotate(90deg);
 }
+
+.menu ul li a i {
+    padding-right: 4px;
+}
