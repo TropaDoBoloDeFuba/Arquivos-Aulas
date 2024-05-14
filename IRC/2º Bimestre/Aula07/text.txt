@@ -1,0 +1,21 @@
+switch>
+switch> enable
+switch#
+switch# configure terminal
+switch(config)# hostname NanoTech
+NanoTech(config)#
+
+NanoTech(config)# vlan 10
+NanoTech(config-vlan)# name professores
+NanoTech(config-vlan)# vlan 20
+NanoTech(config-vlan)# name alunos
+NanoTech(config-vlan)# end
+NanoTech# write memory
+
+NanoTech# config terminal
+NanoTech(config)# interface range fa0/1-6
+NanoTech(config-range)# switchport access vlan 10
+NanoTech(config)# interface range fa0/7-24
+NanoTech(config-range)# switchport access vlan 20
+NanoTech(config-range)# end
+NanoTech# write memory
