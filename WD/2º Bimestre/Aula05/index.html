@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Formulário</title>
+    </head>
+    <body>
+        <div class="container-form">
+            <form>
+                <fieldset>
+                    <legend id="titulo">FORMULÁRIO</legend>
+                    <label>Nome: </label>
+                    <input type="text" name="nome" id="input-nome" /> <br />
+                    <br>
+                    <label>Email: </label>
+                    <input type="email" name="email" id="input-email" />
+                    <legend>Mensagem:</legend>
+                    <textarea
+                        cols="35"
+                        rows="8"
+                        name="msg"
+                        id="input-msg"
+                    ></textarea>
+                    <br />
+                    <button type="submit" id="btn-enviar">Enviar</button>
+                    <button type="submit" id="btn-resetar">Resetar</button>
+                </fieldset>
+            </form>
+        </div>
+    </body>
+</html>
