@@ -1,0 +1,58 @@
+body, html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    height: 100vh;
+    overflow-x: hidden;
+    perspective: 2px;
+    transform-style: preserve-3d;
+}
+
+.section {
+    position: relative;
+    height: 100vh;
+    min-height: 700px;
+    transform-style: inherit;
+}
+
+.section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transform: translateZ(-1px) scale(1.5);
+}
+
+.bg1::before {
+    background-image: url("https://w0.peakpx.com/wallpaper/211/965/HD-wallpaper-koenigsegg-one-1-and-background.jpg");
+}
+
+.bg2::before {
+    background-image: url("https://www.webmotors.com.br/wp-content/uploads/2022/10/24173017/Kawasaki-H2R-2023-1.jpg");
+}
+
+.bg3::before {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSngGgGHp9slraayesx1u4-szThh6yJ2dBqug&s");
+}
+
+.text {
+    position: absolute;
+    top: 25%;
+    width: 100%;
+    padding: 30px 0;
+    background-color: rgba(255, 255, 255, 0.5);
+
+    color: white;
+    text-shadow: 0 0 5px #000;
+    font-size: 20px;
+    text-align: center;
+}
